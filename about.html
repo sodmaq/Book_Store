@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="books/book1.jpg" type="image/x-icon">
+    <script src="script.js"></script>
+    <title>Book</title>
+</head>
+
+<body>
+
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="books/booklogo.png" alt=""></a>
+            <div class="nav-link" id="nav-link">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li>
+                        <a href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="about.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="service.html">SERVICE</a>
+                    </li>
+                    <li>
+                        <a href="books.html">BOOKS</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About us</h1>
+    </section>
+        <!-- About us content -->
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>we are the world's largest Book Store</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quae architecto voluptates sequi repellat sint quaerat explicabo adipisci 
+                        consequuntur dignissimos reiciendis unde, dolorem soluta at sunt 
+                        quo ab, modi sit labore
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Quae architecto voluptates sequi repellat sint quaerat explicabo adipisci 
+                        consequuntur dignissimos reiciendis unde, dolorem soluta at sunt 
+                        quo ab, modi sit labore.</p>
+                        <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+                <div class="about-col">
+                    <img src="books/book5.jpg" alt="">
+                </div>
+
+            </div>
+
+        </section>
+       
+
+
+
+    
+
+    
+    <!-- footer -->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit 
+            amet, consectetur adipisicing elit.
+             Et error saepe labore repellat quos facere, ut, consectetur ratione, fuga dignissimos esse <br> quibusdam reprehenderit delectus quisquam a reiciendi
+            s id distinctio placeat?</p>
+            <div class="icon">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+
+            </div>
+            
+
+
+    </section>
+    <script>
+        var navlink = document.getElementById("nav-link");
+        function showMenu() {
+            navlink.style.right = 0;
+        }
+        function hideMenu() {
+            navlink.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
